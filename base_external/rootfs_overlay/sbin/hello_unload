@@ -1,0 +1,9 @@
+#!/bin/sh
+module="hello"
+device="hello"
+mode="664"
+group=root
+
+rmmod hello.ko
+
+rm -f /dev/${device}

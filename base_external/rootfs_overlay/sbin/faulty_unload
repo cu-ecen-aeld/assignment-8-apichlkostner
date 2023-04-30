@@ -1,0 +1,9 @@
+#!/bin/sh
+module="faulty"
+device="faulty"
+mode="664"
+group=root
+
+rmmod faulty.ko
+
+rm -f /dev/${device}

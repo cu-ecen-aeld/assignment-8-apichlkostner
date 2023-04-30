@@ -1,0 +1,5 @@
+#!/bin/sh
+
+scull_unload
+faulty_unload
+hello_unload
