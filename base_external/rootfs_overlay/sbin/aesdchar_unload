@@ -1,0 +1,9 @@
+#!/bin/sh
+module="aesdchar"
+device="aesdchar"
+mode="664"
+group=root
+
+rmmod aesdchar.ko
+
+rm -f /dev/${device}
